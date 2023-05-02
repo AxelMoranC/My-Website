@@ -1,0 +1,90 @@
+
+body{
+    background: #ddd0c8;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+   width: 360px;
+   height: 400px;
+   margin: 0;
+   background-color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    color: #323232;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+    text-align: center;
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+form input{
+    width: 80%;
+    padding: 7px;
+    border: none;
+    border-bottom: 1px solid #323232;
+    outline: none;
+    padding-bottom: 10px;
+    padding-top: 40px;
+}
+button{
+    background-color: #323232;
+    margin-top: 45px;
+    width: 100px;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 37px;
+    border-radius: 30px;
+}
+.firstname{
+    text-decoration: none;
+    color: #323232;
+    text-transform: uppercase;
+    
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 120px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #323232;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #323232;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}

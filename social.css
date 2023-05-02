@@ -1,0 +1,60 @@
+body{
+    background: #ddd0c8;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+}
+.firstname{
+    text-decoration: none;
+    color: #323232;
+    text-transform: uppercase;
+    
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 120px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #323232;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #323232;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+}
+h1{
+    color: #323232;
+    text-align: center;
+}
+p{
+    color: #323232;
+    text-align: center;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    
+    
+}

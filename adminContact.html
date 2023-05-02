@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js">
+
+    </script>
+</head>
+<body>
+    <div class="navbar">
+        <p class="firstname">Axel Moran Caballero</p>
+        <ul>
+            <li><a href="adminIndex.html">Home</a></li>
+            <li><a href="adminResume.html">Resume</a></li>
+            <li><a href="adminProjects.html">Projects</a></li>
+            <li><a href="adminContact.html">Contact</a></li>
+            <li><a href="adminSocial.html">Social</a></li>
+            <li><a href="logout.html">Admin</a></li>
+
+
+        </ul>
+    </div>
+
+    <div class="container">
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="20" placeholder="The message that you upload will be read here."></textarea>
+        <br>
+        <input id="submitMessage" type="file" accept=".txt" class="no-style">
+        <input type="button" value="Read Message" onclick="readMessages()">
+    </div>
+    
+</body>
+</html>
